@@ -9,6 +9,6 @@
   },
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ."
+    "build": "NODE_ENV=production parcel build src/index.html --public-url . && node headers.js"
   }
 }
